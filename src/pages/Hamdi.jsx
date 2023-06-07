@@ -22,6 +22,7 @@ export default function Hamdi() {
        <Grid container spacing={2} justify="center">
 <Grid item>
     <Button variant='contained' color='primary'> SEE HAMDI PHOTO</Button>
+    <Button variant='contained' color='secondary'> DO WHATEVER U WANT</Button>
     
      </Grid>
 
