@@ -1,5 +1,7 @@
-// component
+import AdbIcon from '@mui/icons-material/Adb';
 import SvgColor from '../../../components/svg-color';
+
+
 
 
 // ----------------------------------------------------------------------
@@ -16,6 +18,11 @@ const navConfig = [
     title: 'user',
     path: '/dashboard/user',
     icon: icon('ic_user'),
+  },
+  {
+    title: 'Moust Tracker',
+    path: '/dashboard/moust',
+    icon: <AdbIcon />,
   },
   {
     title: 'hamdi',

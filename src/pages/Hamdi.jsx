@@ -3,6 +3,17 @@ import { Typography, Card, CardMedia, CardActions, CssBaseline, CardContent, Gri
 import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 import { makeStyles } from '@mui/styles';
 
+const Styles= {
+color:'purple',
+padding:10,
+margin:20
+
+}
+
+function Buttone(props){
+  return <button  style={{...props.style,fontSiza:props.textSize}}> {props.children} </button> 
+}
+
 const cards=[1,2,3,4,5,6,7,8,9];
 
 const useStyles = makeStyles({
@@ -59,6 +70,8 @@ export default function Hamdi() {
               <Grid item>
                 <Button variant='contained' color='primary' sx={{ m: 2 }}>SEE HAMDI PHOTO</Button>
                 <Button variant='contained' color='secondary'>DO WHATEVER U WANT</Button>
+                
+                
               </Grid>
             </Grid>
           </Container>
@@ -76,9 +89,12 @@ export default function Hamdi() {
     <Typography gutterBottom variant='h6'> this is description</Typography>
     <CardActions>
       <Button size='small' color='success' > Views </Button> 
-      <Button size='small' color='success' > Downlod </Button>
+      <Button size='small' color='success' > Downlod </Button> 
+      
     </CardActions>
   </CardContent>
+  <Buttone  style={Styles} textSize={20} > Click Me! </Buttone>
+  <Buttone  style={Styles} > Log In </Buttone>
 </Card>
 
 </Grid>))}

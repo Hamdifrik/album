@@ -10,6 +10,8 @@ import Page404 from './pages/Page404';
 import ProductsPage from './pages/ProductsPage';
 import DashboardAppPage from './pages/DashboardAppPage';
 import Hamdi from './pages/Hamdi';
+import MoustTracker from './pages/MoustTracker';
+import Board from './pages/Borad';
 
 // ----------------------------------------------------------------------
 
@@ -23,6 +25,7 @@ export default function Router() {
         { path: 'app', element: <DashboardAppPage /> },
         { path: 'user', element: <UserPage /> },
         { path: 'hamdi', element: <Hamdi /> },
+        { path: 'moust', element: <Board /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
       ],
