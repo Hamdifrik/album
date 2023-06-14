@@ -12,6 +12,7 @@ import DashboardAppPage from './pages/DashboardAppPage';
 import Hamdi from './pages/Hamdi';
 import MoustTracker from './pages/MoustTracker';
 import Board from './pages/Borad';
+import Blocquote from './pages/Blocquote';
 
 // ----------------------------------------------------------------------
 
@@ -25,6 +26,7 @@ export default function Router() {
         { path: 'app', element: <DashboardAppPage /> },
         { path: 'user', element: <UserPage /> },
         { path: 'hamdi', element: <Hamdi /> },
+        { path: 'bloc', element: <Blocquote /> },
         { path: 'moust', element: <Board /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },

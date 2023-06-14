@@ -30,6 +30,11 @@ const navConfig = [
     icon: icon('ic_user'),
   },
   {
+    title: 'Bloc Code',
+    path: '/dashboard/bloc',
+    icon: icon('ic_disabled'),
+  },
+  {
     title: 'product',
     path: '/dashboard/products',
     icon: icon('ic_cart'),

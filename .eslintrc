@@ -75,6 +75,13 @@
         "object": true,
         "array": false
       }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never"
+      }
     ]
   }
 }
